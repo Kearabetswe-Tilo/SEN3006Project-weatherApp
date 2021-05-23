@@ -1,0 +1,139 @@
+html{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  font-family:'montserrat', sans-serif;
+  background-size: cover;
+  background-color: rgb(152, 154, 179);
+  background-position: top center;
+}
+.app-wrap{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom);
+}
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: inherit;
+  outline: rgb(35, 35, 44);
+  border-radius: inherit;
+  border-bottom: inherit;
+
+  color: rgb(97, 97, 150);
+  font-size: 20px;
+  font-weight: 300;
+  transition: 0.2s ease-out;
+}
+
+header input:focus {
+  background-color: rgb(21, 21, 56);
+
+}
+main{
+  flex: 1 1 100%;
+  padding: 25px 25px 50px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+}
+
+.location .city{
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.city{
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.Weather{
+	font-size: 40px;
+  	font-weight: 900;
+}
+
+.location .date{
+  color: #fff;
+  font-size: 16px;
+
+}
+.temp{
+  color: #fff;
+  font-size: 80px;
+  font-weight: 900;
+  margin:5px 0px;
+  text-shadow: slateblue;
+}
+
+.hi-low{
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  margin:10px 0px;
+  text-shadow: slateblue;
+}
+.search{
+	display: flex;
+	align-items: center;
+}
+
+input[type=submit]{
+	height:2.85rem;
+	width: 6rem;
+	font-size:1rem;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 1.0rem;
+}
+input[type=text]:focus {
+  border: 3px solid #555;
+  background-color: #fff;
+  border-color:#fff;
+}
+
+.error{
+	color: #db5942;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+a{
+	text-decoration:none;
+	background-color: #4d695a; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+
+a:hover{
+	background-color: transparent; /* Green */
+  	color: black;
+  	border: 1px solid #4d695a;
+}	
+
+.location .date{
+	color:#baf5c7;
+}
